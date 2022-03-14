@@ -35,3 +35,17 @@ function invertiParola(analisiParola) {
 
 
 const richiestaPariDispari = prompt('Scegli.. Pari o Dispari?');
+const numeroRichiesto = parseInt(prompt('Inserisci un numero da 1 a 5'));
+
+let numeroRandom = generaNumeroRandom(1, 5);
+console.log(numeroRandom);
+
+function generaNumeroRandom(min, max) {
+
+    const range = max - min + 1;
+
+    const generatedNumber = Math.floor(Math.random() * range) + min;
+
+    return generatedNumber;
+
+}
