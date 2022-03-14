@@ -22,9 +22,6 @@ function invertiParola(analisiParola) {
     return parolaAnalizzata;
 }
 
-
-
-
 // ESERCIZIO PARI E DISPARI 
 /*
 -L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
@@ -37,3 +34,4 @@ function invertiParola(analisiParola) {
 */
 
 
+const richiestaPariDispari = prompt('Scegli.. Pari o Dispari?');
