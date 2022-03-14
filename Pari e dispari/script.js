@@ -53,9 +53,9 @@ function sommaPariDispari(somma) {
 
 
 if (richiestaPariDispari.toLocaleLowerCase() === verdettoPariDispari) {
-    console.log(`Ha vinto l'Utente con ${richiestaPariDispari}, la somma è:${verdettoPariDispari}`);
+    console.log(`Ha vinto l'Utente con ${richiestaPariDispari}, la somma è: ${verdettoPariDispari}`);
 } else {
-    console.log(`Ha vinto il Computer! utente:${richiestaPariDispari}, la somma è:${verdettoPariDispari}`);
+    console.log(`Ha vinto il Computer! utente: ${richiestaPariDispari}, la somma è: ${verdettoPariDispari}`);
 }
 
 
