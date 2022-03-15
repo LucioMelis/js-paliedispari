@@ -43,9 +43,11 @@ function generaNumeroRandom(min, max) {
 // FUNZIONE VERDETTO PARI O DISPARI 
 function sommaPariDispari(somma) {
 
-    let numero = 'dispari';
+    let numero;
     if (somma % 2 == 0) {
         numero = 'pari';
+    } else {
+        numero = 'dispari';
     }
 
     return numero
